@@ -15,24 +15,26 @@ import RedBallSmallForMobile from "./assets/balls/RedBallSmallForMobile";
 
 function App() {
     return (
-        <div className="App">
-            <div className='App-wrapper'>
-                <Header/>
-                <div className="Content">
-                    <Welbex/>
+        <div className="App-wrapper">
+            <div className='App'>
+                <div className="Content-wrapper">
+                    <Header/>
+                    <div className="Content">
+                        <Welbex/>
+                    </div>
+                    <Footer/>
+                    <div>
+                        <PurpleBall/>
+                        <RedBall/>
+                        <RedBallSmall/>
+                        <PurpleLight/>
+                        <YellowLight/>
+                        <YellowBall/>
+                        <RedBallSmallForMobile/>
+                    </div>
                 </div>
-                <Footer/>
-                <div>
-                    <PurpleBall/>
-                    <RedBall/>
-                    <RedBallSmall/>
-                    <PurpleLight/>
-                    <YellowLight/>
-                    <YellowBall/>
-                    <RedBallSmallForMobile/>
-                </div>
+                <RedLight/>
             </div>
-            <RedLight/>
         </div>
     );
 }

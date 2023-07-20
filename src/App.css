@@ -1,15 +1,16 @@
 
-.App{
+.App-wrapper{
     min-width: 1440px;
     width: 100%;
     background: #0E1014;
     min-height: 100%;
+    position: absolute;
+    z-index: -1;
 }
-.App-wrapper{
-    overflow: hidden;
+.App{
+    position: relative;
     width: 1440px;
     margin: 0 auto;
-    position: relative;
 }
 
 .Content{
@@ -17,10 +18,17 @@
     min-height: 456px;
     height: calc(100vh - 524px);
     margin: 0 auto;
+    position: relative;
     background: #0E1014;
 
 }
 
+.Content-wrapper{
+    overflow: hidden;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
 
 @media screen and (max-width:480px){
     .App{
@@ -29,6 +37,11 @@
 
     }
     .App-wrapper{
+        width: 100%;
+        min-width: 100%;
+
+    }
+    .Content-wrapper{
         width: 100%;
         min-width: 100%;
 
