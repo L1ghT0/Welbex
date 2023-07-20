@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Welbex/static/css/main.fea277f3.css",
-    "main.js": "/Welbex/static/js/main.ccd31b5f.js",
+    "main.css": "/Welbex/static/css/main.92415f83.css",
+    "main.js": "/Welbex/static/js/main.5885c314.js",
     "static/media/noise.png": "/Welbex/static/media/noise.d2dfef5e81ec28d3d933.png",
     "static/media/part2.svg": "/Welbex/static/media/part2.52d1316c82f15801052977ecb8b74f44.svg",
     "static/media/viber.svg": "/Welbex/static/media/viber.a8597bfa05b3b28e3b704bfaf88f426d.svg",
@@ -9,11 +9,11 @@
     "static/media/part1.svg": "/Welbex/static/media/part1.88e5da03a49d2dbd1b6df8ea51b3263c.svg",
     "static/media/telegram.svg": "/Welbex/static/media/telegram.f570b14295cb8d82eb0f5d354d783361.svg",
     "index.html": "/Welbex/index.html",
-    "main.fea277f3.css.map": "/Welbex/static/css/main.fea277f3.css.map",
-    "main.ccd31b5f.js.map": "/Welbex/static/js/main.ccd31b5f.js.map"
+    "main.92415f83.css.map": "/Welbex/static/css/main.92415f83.css.map",
+    "main.5885c314.js.map": "/Welbex/static/js/main.5885c314.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea277f3.css",
-    "static/js/main.ccd31b5f.js"
+    "static/css/main.92415f83.css",
+    "static/js/main.5885c314.js"
   ]
 }
