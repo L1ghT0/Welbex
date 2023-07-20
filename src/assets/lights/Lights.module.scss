@@ -1,0 +1,54 @@
+.purple{
+  width: 259px;
+  height: 259px;
+  top: -154px;
+  left: 602px;
+  opacity: 50%;
+  position: absolute;
+  border-radius: 259px;
+  background: #833AB4;
+  filter: blur(196px);
+  z-index: 2;
+  @media screen and (max-width:480px){
+    top: 162px;
+    left: 258px;
+  }
+
+}
+
+.red{
+  width: 311px;
+  height: 311px;
+  top: 251px;
+  left: -102px;
+  flex-shrink: 0;
+  border-radius: 311px;
+  opacity: 0.5;
+  background: #961A1A;
+  filter: blur(196px);
+  position: absolute;
+  z-index: 2;
+
+  @media screen and (max-width:480px){
+    top: 296px;
+    left: -55px;
+    width: 211px;
+    height: 210px;
+
+  }
+}
+
+.yellow{
+  @media screen and (max-width:480px){
+    top: 574px;
+    left: -66px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background: #FCB045;
+    opacity: 0.4000000059604645;
+    filter: blur(196px);
+    position: absolute;
+
+  }
+}
