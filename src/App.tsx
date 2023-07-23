@@ -17,23 +17,25 @@ function App() {
     return (
         <div className="App-wrapper">
             <div className='App'>
-                <div className="Content-wrapper">
-                    <Header/>
-                    <div className="Content">
-                        <Welbex/>
-                    </div>
-                    <Footer/>
-                    <div>
+                <Header/>
+                <div className="Content">
+                    <Welbex/>
+                </div>
+                <Footer/>
+                <div className="Background">
+                    <div className='balls'>
                         <PurpleBall/>
                         <RedBall/>
                         <RedBallSmall/>
-                        <PurpleLight/>
-                        <YellowLight/>
                         <YellowBall/>
                         <RedBallSmallForMobile/>
                     </div>
+                    <div className='lights'>
+                        <RedLight/>
+                        <PurpleLight/>
+                        <YellowLight/>
+                    </div>
                 </div>
-                <RedLight/>
             </div>
         </div>
     );

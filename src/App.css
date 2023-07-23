@@ -20,31 +20,18 @@
     margin: 0 auto;
     position: relative;
     background: #0E1014;
-
 }
 
-.Content-wrapper{
-    overflow: hidden;
-    width: 1440px;
-    margin: 0 auto;
-    position: relative;
-}
 
 @media screen and (max-width:480px){
     .App{
         width: 100%;
         min-width: 100%;
-
     }
     .App-wrapper{
         width: 100%;
         min-width: 100%;
-
-    }
-    .Content-wrapper{
-        width: 100%;
-        min-width: 100%;
-
+        overflow: hidden;
     }
     .Content{
         width: 100%;
